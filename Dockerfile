@@ -10,7 +10,7 @@ COPY . .
 # Installer les dépendances
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Exposer le port sur lequel l'application sera accessible
+# Exposer le port sur lequel l'application sera accessiblee
 EXPOSE 80
 
 # Définir la commande à exécuter
