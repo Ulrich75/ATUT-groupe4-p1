@@ -3,6 +3,7 @@ from flask import Flask, jsonify
 app = Flask(__name__)
 
 # Simuler une base de données d'utilisateurs
+# Commentaire ajouter pour vérifier le build pour une autre branche
 users = [
     {"id": 1, "name": "Alice", "email": "alice@example.com"},
     {"id": 2, "name": "Bob", "email": "bob@example.com"}
